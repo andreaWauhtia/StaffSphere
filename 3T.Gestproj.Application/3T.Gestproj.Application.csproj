@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>_3T.Gestproj.Application</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\3T.Gestproj.Persistence\3T.Gestproj.Persistence.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="3T.Framework.Application">
+      <HintPath>..\..\3T.Framework\3T.Framework.Application\bin\Debug\net7.0\3T.Framework.Application.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
