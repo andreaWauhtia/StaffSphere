@@ -16,7 +16,7 @@ builder.Services.BuildGestprojApplication(builder.Configuration);
 builder.Services.BuildPersistence(builder.Configuration);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
+var toto = builder.Host;
 
 builder.Services.AddHttpContextAccessor();
 

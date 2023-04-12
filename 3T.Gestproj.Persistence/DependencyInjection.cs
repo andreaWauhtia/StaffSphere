@@ -1,4 +1,5 @@
-﻿using _3T.Framework.Persistence.Configuration;
+﻿using _3T.Framework.Common;
+using _3T.Framework.Persistence.Configuration;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -8,11 +9,10 @@ namespace _3T.Gestproj.Persistence
     {
         public static IServiceCollection BuildPersistence(this IServiceCollection services, IConfiguration configuration)
         {
+            services.Configure<PeristenceConfig>(configuration.GetSection("PeristenceConfig"));
+
             services.ConfigurePersistenceDependencies(configuration);
-            //services.Configure<PeristenceConfig>(options => {
-            //    configuration.GetSection("PersistenceConfig");
-            //});
-            //services.AddSingleton(resolver => resolver.GetRequiredService<IOptions<PeristenceConfig>>().Value);
+           
             return services;
         }
     }

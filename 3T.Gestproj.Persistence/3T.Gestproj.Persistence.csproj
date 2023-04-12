@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -8,13 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\3T.Gestproj.Domain\3T.Gestproj.Domain.csproj" />
+    <PackageReference Include="3T.Framework.Persistence" Version="1.0.0-4-232-12-141759" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="7.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="3T.Framework.Persistence">
-      <HintPath>..\..\3T.Framework\3T.Framework.Persistence\bin\Debug\net7.0\3T.Framework.Persistence.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\3T.Gestproj.Domain\3T.Gestproj.Domain.csproj" />
   </ItemGroup>
 
 </Project>

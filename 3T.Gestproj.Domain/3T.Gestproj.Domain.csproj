@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -8,13 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\3T.Gestproj.Common\3T.Gestproj.Common.csproj" />
+    <PackageReference Include="3T.Framework.Domain" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="3T.Framework.Domain">
-      <HintPath>..\..\3T.Framework\3T.Framework\bin\Debug\net7.0\3T.Framework.Domain.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\3T.Gestproj.Common\3T.Gestproj.Common.csproj" />
   </ItemGroup>
 
 </Project>

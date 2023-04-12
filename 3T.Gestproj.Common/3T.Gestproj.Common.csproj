@@ -8,14 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="3T.Framework.Common" Version="1.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="3T.Framework.Common">
-      <HintPath>..\..\3T.Framework\3T.Framework.Common\bin\Debug\net7.0\3T.Framework.Common.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
 </Project>

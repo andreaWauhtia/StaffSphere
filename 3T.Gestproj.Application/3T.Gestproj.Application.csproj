@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -8,17 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="3T.Framework.Application" Version="1.0.0" />
     <PackageReference Include="MediatR" Version="12.0.1" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\3T.Gestproj.Domain\3T.Gestproj.Domain.csproj" />
     <ProjectReference Include="..\3T.Gestproj.Persistence\3T.Gestproj.Persistence.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="3T.Framework.Application">
-      <HintPath>..\..\3T.Framework\3T.Framework.Application\bin\Debug\net7.0\3T.Framework.Application.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
 </Project>
