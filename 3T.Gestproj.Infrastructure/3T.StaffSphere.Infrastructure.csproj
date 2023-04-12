@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\3T.Gestproj.Application\3T.Gestproj.Application.csproj" />
+    <ProjectReference Include="..\3T.Gestproj.Application\3T.StaffSphere.Application.csproj" />
   </ItemGroup>
 
 </Project>

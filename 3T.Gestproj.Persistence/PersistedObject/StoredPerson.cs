@@ -1,4 +1,4 @@
-﻿using _3T.Gestproj.Domain.StaffSphere;
+﻿using _3T.StaffSphere.Domain.StaffSphere;
 using Dapper.Contrib.Extensions;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace _3T.Gestproj.Persistence.PersistedObject
+namespace _3T.StaffSphere.Persistence.PersistedObject
 {
     [Table("People")]
     public class StoredPerson: Person

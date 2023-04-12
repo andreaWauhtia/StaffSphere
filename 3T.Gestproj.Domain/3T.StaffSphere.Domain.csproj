@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\3T.Gestproj.Common\3T.Gestproj.Common.csproj" />
+    <ProjectReference Include="..\3T.Gestproj.Common\3T.StaffSphere.Common.csproj" />
   </ItemGroup>
 
 </Project>

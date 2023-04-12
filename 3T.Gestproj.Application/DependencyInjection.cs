@@ -5,11 +5,11 @@ using _3T.Framework.Application.Configuration;
 using System.Reflection;
 using MediatR;
 
-namespace _3T.Gestproj.Application
+namespace _3T.StaffSphere.Application
 {
     public static class DependencyInjection
     {
-        public static IServiceCollection BuildGestprojApplication(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection BuildStaffSphereApplication(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddMediatR(cfg => {
                 cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());

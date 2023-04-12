@@ -1,9 +1,9 @@
-﻿using _3T.Gestproj.Application.StaffSphere;
-using _3T.Gestproj.Domain.StaffSphere;
-using _3T.Gestproj.Persistence.PersistedObject;
+﻿using _3T.StaffSphere.Application.StaffSphere;
+using _3T.StaffSphere.Domain.StaffSphere;
+using _3T.StaffSphere.Persistence.PersistedObject;
 using Microsoft.AspNetCore.Mvc;
 
-namespace _3T.Gestproj.RestApp.Controller
+namespace _3T.StaffSphere.RestApp.Controller
 {
     public class PersonController : ApiControllerBase
     {

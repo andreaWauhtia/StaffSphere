@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Builder;
-using _3T.Gestproj.Common;
-using _3T.Gestproj.Application;
-using _3T.Gestproj.Persistence;
-using _3T.Gestproj.Infrastructure;
-using _3T.Gestproj.Domain;
+using _3T.StaffSphere.Common;
+using _3T.StaffSphere.Application;
+using _3T.StaffSphere.Persistence;
+using _3T.StaffSphere.Infrastructure;
+using _3T.StaffSphere.Domain;
 using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,8 +11,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.ConfigureGestProjCommonDependencies(builder.Configuration);
-builder.Services.BuildGestprojApplication(builder.Configuration);
+builder.Services.ConfigureStaffSphereCommonDependencies(builder.Configuration);
+builder.Services.BuildStaffSphereApplication(builder.Configuration);
 builder.Services.BuildPersistence(builder.Configuration);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

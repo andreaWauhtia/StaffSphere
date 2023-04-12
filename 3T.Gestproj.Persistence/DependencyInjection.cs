@@ -3,7 +3,7 @@ using _3T.Framework.Persistence.Configuration;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace _3T.Gestproj.Persistence
+namespace _3T.StaffSphere.Persistence
 {
     public static class DependencyInjection
     {

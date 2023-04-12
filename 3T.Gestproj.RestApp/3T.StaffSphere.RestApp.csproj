@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\3T.Gestproj.Infrastructure\3T.Gestproj.Infrastructure.csproj" />
+    <ProjectReference Include="..\3T.Gestproj.Infrastructure\3T.StaffSphere.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

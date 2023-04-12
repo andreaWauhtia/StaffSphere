@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace _3T.Gestproj.Domain.Configuration
+namespace _3T.StaffSphere.Domain.Configuration
 {
     public static class DependencyInjection
     {
