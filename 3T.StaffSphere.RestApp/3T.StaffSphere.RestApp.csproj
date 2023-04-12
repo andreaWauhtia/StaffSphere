@@ -4,7 +4,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>_3T.Gestproj.RestApp</RootNamespace>
+    <RootNamespace>_3T.StaffSphere.RestApp</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\3T.Gestproj.Infrastructure\3T.StaffSphere.Infrastructure.csproj" />
+    <ProjectReference Include="..\3T.StaffSphere.Infrastructure\3T.StaffSphere.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
