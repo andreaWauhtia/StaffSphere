@@ -1,5 +1,5 @@
 ﻿using _3T.Framework.Persistence.Repository;
-using _3T.Gestproj.Persistence.PersistedObject;
+using _3T.StaffSphere.Persistence.PersistedObject;
 using Dapper.Contrib.Extensions;
 using MediatR;
 using System;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _3T.Gestproj.Application.StaffSphere
+namespace _3T.StaffSphere.Application.StaffSphere
 {
     public class InsertPersonCommand: IRequest<Unit>
     {

@@ -6,7 +6,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace _3T.Gestproj.Domain.StaffSphere
+namespace _3T.StaffSphere.Domain.StaffSphere
 {
     public class Person: IEntity
     {

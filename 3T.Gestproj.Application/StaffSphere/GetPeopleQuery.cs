@@ -1,15 +1,15 @@
-﻿using _3T.Gestproj.Domain.StaffSphere;
+﻿using _3T.StaffSphere.Domain.StaffSphere;
 using MediatR;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using _3T.Gestproj.Persistence;
+using _3T.StaffSphere.Persistence;
 using _3T.Framework.Persistence.Repository;
-using _3T.Gestproj.Persistence.PersistedObject;
+using _3T.StaffSphere.Persistence.PersistedObject;
 
-namespace _3T.Gestproj.Application.StaffSphere
+namespace _3T.StaffSphere.Application.StaffSphere
 {
     public class GetPeopleQuery: IRequest<IQueryable<StoredPerson>>
     {

@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace _3T.Gestproj.RestApp.Controller
+namespace _3T.StaffSphere.RestApp.Controller
 {
     [ApiController]
     //[ApiExceptionFilter]

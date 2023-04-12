@@ -7,11 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _3T.Gestproj.Common
+namespace _3T.StaffSphere.Common
 {
     public static class DependencyInjection
     {
-        public static IServiceCollection ConfigureGestProjCommonDependencies(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection ConfigureStaffSphereCommonDependencies(this IServiceCollection services, IConfiguration configuration)
         {
             services.ConfigureCommonDependencies(configuration);
             //services.Configure<PeristenceConfig>(options => {

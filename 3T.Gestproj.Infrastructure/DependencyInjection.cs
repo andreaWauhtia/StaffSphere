@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace _3T.Gestproj.Infrastructure
+namespace _3T.StaffSphere.Infrastructure
 {
     public static class DependencyInjection
     {
