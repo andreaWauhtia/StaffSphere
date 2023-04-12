@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
-    <RootNamespace>_3T.Gestproj.Persistence</RootNamespace>
+    <RootNamespace>_3T.StaffSphere.Persistence</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\3T.Gestproj.Domain\3T.StaffSphere.Domain.csproj" />
+    <ProjectReference Include="..\3T.StaffSphere.Domain\3T.StaffSphere.Domain.csproj" />
   </ItemGroup>
 
 </Project>

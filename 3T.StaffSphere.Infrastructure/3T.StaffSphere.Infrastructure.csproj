@@ -2,13 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
-    <RootNamespace>_3T.Gestproj.Infrastructure</RootNamespace>
+    <RootNamespace>_3T.StaffSphere.Infrastructure</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\3T.Gestproj.Application\3T.StaffSphere.Application.csproj" />
+    <ProjectReference Include="..\3T.StaffSphere.Application\3T.StaffSphere.Application.csproj" />
   </ItemGroup>
 
 </Project>
